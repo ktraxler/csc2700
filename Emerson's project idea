@@ -1,4 +1,3 @@
-
 My project is a Raspberry pi based motion activated security camera with a website.
 
 upon activation it will upload "video" of a series of still pictures to a website. (every second? every two?)
@@ -7,4 +6,8 @@ I will look into full video streaming but due to the pi's limited proccessing po
 wont be able to stream hd videos.
 
 if time allows I would like to add the ability to turn on the camera via the web client.
+
+note, camera interface is already coded for the pi.
+ half way point would be to get the camera detecting motion and taking pictures. 
+ 
 
