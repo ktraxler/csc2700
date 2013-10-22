@@ -1,0 +1,24 @@
+For my project I'm going to create a sales/inventory system for a music(instrument) store.
+
+Given time constraints I hope to have a program that, at the bare minimum, can keep track
+of inventory for all instruments and accessories sold and that can make basic sales 
+transactions with the inventory given.
+
+I also want to divide the instruments into brand in model just for realisms sake. Not
+too many models or brands mind you.
+
+If I have time I would also like to add:
+ - A trade-in, buyback, and refund feature to the sales system.
+ - Say it was a mom & pop music store and was fairly small. A 
+   lot of these places offer lessons for certain instruments
+   so I planned on adding a feature to where there'd be a few
+   basic lessons I'll make myself on a word processor for Linux
+   for each instrument and allow the user to pick from these files
+   in the data structure I'll put them in.
+ - I also would like the ability to let the user give a set amount
+   of money he could spend as well. Might charge for the music 
+   lessons too.
+   
+I basically want it to be as close to a real store as possible. 
+
+Let me know what you guys think!
