@@ -1,0 +1,7 @@
+1. Create a program that scrambles ordinary text into jumbled text where the first and last letters of the words are unchanged. This would only work for words of length 4 and over.
+
+2. Create a program that, when given text, prints an image of that text in my handwriting. This will probably not be finished in time.
+
+3. Create a program that graphically represents a picture of the old Mike the Tiger.
+
+4. Create a program that uses the Flesch Readability Index to see how difficult a text is to read.
