@@ -1,0 +1,10 @@
+My goal is to implement OSC (open sound control) in a project.
+
+The project I have in mind will read an online world birth/death clock.
+Convert that number into some kind of musical note.
+Use OSC to send that note in an OSC message to some program/device to play the note.
+
+Mid-point goal: Obtain world clock data into program and convert to musical note.
+Wrap in OSC message.
+
+From there it's a matter of setting up a receiver to parse and play the note(s).
