@@ -1,0 +1,6 @@
+My idea is to write a program that uses some usenet crawler/indexer to search for the artists of music in your library.
+The idea will be to write something that pulls the name of each artist from your music library, throwing away the many duplicates, and compiling a list of them. Then, when you select one of the artists, it plugs the artist into the indexer, which will then search usenet for your artist. 
+
+Maybe I can add functionality that adds searches for albums, and possibly even related artists. For related artists, I'd have to find some public service that would allow me to import related artist info into my program.
+
+As the indexers are already written, writing this program shouldn't be too hard.
