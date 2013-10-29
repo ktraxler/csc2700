@@ -10,4 +10,17 @@ if time allows I would like to add the ability to turn on the camera via the web
 note, camera interface is already coded for the pi.
  half way point would be to get the camera detecting motion and taking pictures. 
  
-
+CORE:
+1. Install motion on pi
+2. Mount shared windows folder
+3. Modify motion.conf so that it is always running, 2 fps, saves in shared folder
+HALF:
+4. Make stream open to everyone
+5. Intergrate into a website
+6. tune and make everything pretty
+EXTRA:
+7. Would be nice to get a email or text when it is set off 
+8. see how fast a fps the pi can handle
+9. auto delete once a week to keep the folder clear
+10.option to turn off via shh or something 
+11. always streaming at 1 pic per minute even when no motion.
