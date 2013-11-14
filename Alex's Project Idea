@@ -7,4 +7,26 @@ Use OSC to send that note in an OSC message to some program/device to play the n
 Mid-point goal: Obtain world clock data into program and convert to musical note.
 Wrap in OSC message.
 
-From there it's a matter of setting up a receiver to parse and play the note(s).
+Final goal: From there it's a matter of setting up a receiver to parse and play the note(s).
+
+
+
+Development Strategy: I intend to use java to look up birth/death information from 
+"http://www.census.gov/popclock/", parse that data into musical values, Pd-extended 
+to play the music notes at those values, and OSC to communicate between the two.
+
+Data will flow in this direction:
+"http://www.census.gov/popclock/" --> java application -OSC-> Pd-extended
+
+Java classes:
+Main.java
+ClockDataRetriever.java
+MusicDataParser.java
+
+Java libraries
+JavaOSC
+
+Pd file construction:
+OSC receiver
+frequency oscililators
+digital to audio convertor
