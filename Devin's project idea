@@ -4,3 +4,19 @@ The idea will be to write something that pulls the name of each artist from your
 Maybe I can add functionality that adds searches for albums, and possibly even related artists. For related artists, I'd have to find some public service that would allow me to import related artist info into my program.
 
 As the indexers are already written, writing this program shouldn't be too hard.
+
+
+Project Design Specifications
+
+	One of the biggest issues will be getting the program to play nice with the index search. In my searches, there aren’t a lot of open source indexing engines, if any at all, so there will have to be some way to get around this. The program will be written in java, and will hopefully be able to run in any operating system with little tweaking to the code. For me, it will be a gigantic learning experience as I have never made a program with a GUI, or one that pulls data properties from files.
+	
+
+	It will be written in Java.
+
+Slightly Detailed System Design
+	The program will be an executable Jar file. 
+	Upon running, the program will automatically check to see if there is an existing list of artists. If there is not a list, it will display a prompt asking the user if he would like to run the initial scan. Otherwise, the main program window will open.
+	The scan will first request the main directory of music files. Once the folder is selected, it will crawl all of the subdirectories and scan each music file’s properties. It is looking for the artist name and album title. It will then add the names to separate arrays. If the name of the artist or album already exists within the arrays, it will not add them. Once it has reached the last subdirectory in the directory, it will end the search and print the arrays to separate text documents.
+	Now the program has exited the scanner and we are back on the main window. There is a new option available—search Usenet. Selecting this option will cause the program to first load both text documents, artist name and album title, and then displaying them in a new window. Then you can select one of the names and click search. This will then somehow provide search results from the indexer from where you can download the .NZB file and the appropriate files.
+One of the problems I may run into with scanning is music files that have undefined artist names or album titles. The way I will handle this is by just skipping the file. If artist title is blank, skip to album title. If album title is blank, skip to next file. This will prevent undefined names from appearing in the lists. There will be similar checks for “various artists” and other similar names.
+
