@@ -1,5 +1,17 @@
 Updated: Sound output was not going well for me in Java. Luckily was working on back-up project. A simplified 
-rendition of the ASCII game "Rogue" recreated in Java. ASCII characters will be used as graphics to represent the character, rooms and enemies. 
+rendition of the ASCII game "Rogue" recreated in Java. 
+
+
+Specifications:
+
+General constraints:
+
+The program will be written entirely in Java. No external graphics will be used to represent any elememts of the game, 
+but instead strictly ASCII characters. 
+
+Goals and guidelines:
+
+The program will be a simplified version of the game "Rogue." ASCII characters will be used as graphics to represent the character, rooms and enemies. 
 A dungeon will be created with each floor having randomly generated rooms. The player will traverse the rooms through corridors
 and try to find stairs to go to the next room. 
 
@@ -12,7 +24,17 @@ _____________
 --------------            |       |
                           |       |
                           ---------
+                          
+Development methods:
+
+Objects will hold different entities, such as the player, enemies, items, and rooms. Rooms will randomly be generated 
+rectangles using procedural algorithm.
+
+Policies and Tactics:
+
+The entire game will be written in Java and compiled in Eclipse. A profiler used specifically in Java will be used for
+profiling the game. The program will be tested in both Windows and Linux.
 
 
-- A program which procedurally generates music at a fixed key and tempo. 
-(maybe a harmony and melody of sorts as well, but not sure how long that would take)
+Specifications template courtesy of: http://www.bradapp.com/docs/sdd.html#TOC_SEC5
+
