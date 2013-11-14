@@ -1,2 +1,21 @@
+
 My idea for a project is to create a mobile application for a contracting company that would allow project leaders to request materials
 and other items for their job sites.  Another possible feature would be to be able to turn in time sheets of the workers.
+
+--------------------------------------
+
+General Specifications:
+
+My program will be written in both java and objective C.  I will be writing my mobile application in Xcode and everything else using Eclipse 
+and other software used for databases.  
+
+Project Goals:
+
+The primary goal for this project is to create a database full of data (i.e. materials for a job site) and have a way to communicate to and 
+from the server using an easy to use application on your phone.  Ideally, one can see what's in stock back at the warehouse and be able to request material.  
+If able, I would also like to add other features such as hour sheets etc.
+
+Learning Goals:
+
+What I would like to take away from this project is the knowledge of communicating from a mobile application to a database server.  
+I have no experience in doing this and hope to learn through research and trial and error.  
