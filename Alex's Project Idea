@@ -30,3 +30,35 @@ Pd file construction:
 OSC receiver
 frequency oscililators
 digital to audio convertor
+
+
++-----------------------------+
+| ClockDataRetriever.java:    |
++-----------------------------+
+|  JsonParserFactory factory; |
+|  JSONParser parser;         |
+|  String jsonString;         |
+|  int birthRate;             |
+|  int deathRate;             |
+|  URL worldClockPage;        |
+|-----------------------------+
+|  void retreiveClockData();  |
+|  int getBirthRate();        |
+|  int getDeathRate();        |
++-----------------------------+
+
++-------------------------------------------+
+| Main.java:                                |
++-------------------------------------------+
+|  TimerTask birthTimerTask;                |
+|  Timer birthTimer;                        |
+|  TimerTask deathTimerTask;                |
+|  Timer deathTimer;                        |
+|  ClockDataRetriever clockDataRetriever;   |
+|-------------------------------------------+
+|  int nextBirthNote();                     |
+|  int nextDeathNote();                     |
+|  void sendOSC(String path, Object[] args);|
+|  static void main(String[] args);         |
++-------------------------------------------+
+
